@@ -3,41 +3,49 @@
 <html lang="ko">
 <head>
 <meta charset="UTF-8">
-<title>Document</title>
+<title>DKUSTUDY</title>
 <style>
 
+/* html size : 1920*1080 */
 html, body {
     padding : 0px;
     margin : 0px;
 }
 
 .wrap {
+    /* width : 1500px, height : 800px */
+    /* (1500/1920)*100 = 78.125% */
     width : 78.125%;
+    /* (800/1080)*100 = 74.1% */
     height : 74.1%;
-    margin : 3.333% 9.259%;
+    /* (50/1500) * 100 = 3.333% (100/800)*100 = 12.5% */
+    margin : 3.333% 12.5%;
 }
 
-.wrap img {
+.wrapImg {
+    /* width : 1000px, height : 500px */
+    /* (1000/1500) * 100 = 66.7% */
     width : 66.7%;
+    /* (500/800)*100 = 62.5% */
     height : 62.5%;
     margin-right: 15px;
     float : left;
 }
 
-.wrap text {
-    width : 33.3%;
-    height : 37.5%;
-    /* font-size 15px to variable font*/
+.wrapText {
+    margin : auto;
+    /* variable font size(15px) */
     font-size : 0.938em;
 }
+
 </style>
 </head>
 <body>
 	<div class="wrap">
         <div>
-            <img src ="littleboy.jpg" alt="img"/>
+            <img class = "wrapImg" src ="littleboy.jpg" alt="img"/>
         </div>
-        <div>
+        <div class = "wrapText">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. In iaculis iaculis felis, vel varius mi tempor ac. Sed elementum tellus nisi. Donec a dapibus mauris. Phasellus feugiat, erat nec consequat tincidunt, dui odio auctor dui, eu aliquet nibh dui vel turpis. Sed finibus cursus nisl non volutpat. Quisque dui libero, pretium sed nulla nec, tempor scelerisque nunc. Quisque a ligula facilisis velit suscipit pharetra. In lobortis convallis posuere. Sed egestas sed diam ac semper. Nullam ex augue, ullamcorper ac diam eget, rutrum eleifend metus. Morbi id tempus mi. Donec ut felis volutpat, eleifend nibh ut, venenatis justo. Suspendisse ac egestas turpis, lacinia vestibulum diam.<br>
             Duis semper placerat magna non laoreet. Cras ut est aliquet, imperdiet nisl nec, suscipit tortor. Praesent nec sagittis quam. Nullam ipsum mi, luctus et nulla non, congue aliquet neque. Proin sed ipsum nec dui fringilla blandit id et leo. Aenean ac risus eget augue tempor fermentum vel ut lorem. Aliquam erat volutpat. Curabitur tincidunt rhoncus nulla in sodales. Suspendisse potenti. Vestibulum et posuere ipsum. Integer aliquet fermentum lacinia. Integer porta est in facilisis faucibus. Sed tristique auctor nunc, volutpat efficitur elit imperdiet ut. Curabitur odio tortor, volutpat a ex quis, pharetra sagittis purus. Suspendisse eu nisi a eros interdum convallis ut vitae turpis.<br>
             Vivamus finibus nunc nec lorem hendrerit ultricies. Donec ac risus dui. Morbi sit amet nisl at urna dignissim semper a eu leo. Suspendisse potenti. Nunc malesuada nunc in eros mattis, vitae lacinia odio ornare. In facilisis placerat purus ac viverra. Nullam non finibus tellus. In eu nulla quis lorem varius porta et tristique ante. In id leo in magna scelerisque vestibulum sit amet eget sem.<br>
